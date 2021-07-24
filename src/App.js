@@ -94,13 +94,13 @@ function App() {
           <h1 className="error">ENTER A VALID LOCATION</h1>
         )}
       </main>
-      <div className="social-icons d-flex flex-column position-absolute end-0 pe-4 pt-5 mt-5 top-0">
+      <div className="social-icons d-flex flex-column position-absolute end-0 pe-4 pt-5 mt-5 top-0  d-none d-md-flex">
         <SocialIcon
           className="pb-2 px-2 mx-2 mb-2 social-icon"
-          url="https://twitter.com/"
+          url="https://twitter.com/Virraaggo"
         />
         <SocialIcon
-          className="p-2 m-2 social-icon"
+          className="p-2 m-2 social-icon "
           url="https://linkedin.com/in/palakg01"
         />
         <SocialIcon
